@@ -1,0 +1,112 @@
+
+html,
+body {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+#app { padding: 10px 45px; }
+
+img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+hr { width: 90%; }
+
+footer {
+  text-align: left;
+  font-size: 11px;
+  padding: 28px 0 0 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+ul > li { padding: 4px 0; }
+ul > li.fa,
+ul > li.fab { line-height: 1.1; }
+
+.fa:before { padding: 4px; }
+.fa span { font-weight: 400; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.emph {
+  font-style: italic;
+}
+
+.resetFont {
+  font-weight: 400;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/***************************************/
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 48px;
+}
+
+.bannerImage {
+  max-height: 250px;
+  min-width: 220px;
+  border-radius: 50%;
+  flex: 1;
+}
+
+.bannerDetails {
+  flex: 1.5;
+  /* text-align: left; */
+  padding-left: 32px;
+}
+
+.bannerDesc {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileSplash {
+  align-items: stretch;
+  padding: 10px 40px;
+  flex-wrap: wrap;
+}
+
+.profileBox {
+  flex: 1;
+  padding: 10px 32px;
+}
+.profileBox.shaded { background-color: #ddd; }
+
+
+@media screen and (max-width: 800px) {
+  #app {
+    padding: 0 10px;
+  }
+
+  .banner { flex-direction: column; }
+  .bannerDetails { padding: 0; }
+
+  .profileBox {
+    padding: 20px 10px;
+    min-width: 140px;
+  }
+}
