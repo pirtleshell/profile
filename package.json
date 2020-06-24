@@ -4,7 +4,7 @@
   "description": "pirtles web splash page",
   "main": "index.js",
   "author": "Robert Pirtle",
-  "license": "private",
+  "license": "MIT",
   "private": true,
   "devDependencies": {
     "react-scripts": "^3.0.0"
