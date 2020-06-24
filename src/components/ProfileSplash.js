@@ -113,6 +113,14 @@ const ProfileSplash = () => {
               <a href="https://laniakean.com/">Explore the galaxies</a> in a
               project I made in 2016.
             </span>
+            <br />
+            <span>
+              Working on{' '}
+              <a href="https://github.com/pirtleshell/lanex">
+                a remake in Gatsby & Typescript
+              </a>
+              .
+            </span>
           </li>
         </ul>,
       ],
