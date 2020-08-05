@@ -18,6 +18,8 @@ img {
 hr { width: 90%; }
 
 footer {
+  display: flex;
+  flex-direction: column;
   text-align: left;
   font-size: 11px;
   padding: 28px 0 0 0;
