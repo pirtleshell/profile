@@ -21,7 +21,7 @@ const BannerBox = () => {
         className="bannerImage"
         src="/imgs/sweeden-biking-cropped.jpg"
         alt="Robert Pirtle loves adventure."
-        title="Biking with my partner in Sweden! August 2019"
+        title="Biking in Sweden! August 2019"
       />
       <div className="bannerDetails">
         <h1>Robert Pirtle</h1>

@@ -26,13 +26,23 @@ const ProfileSplash = () => {
       title: 'Programming',
       caption: 'Code! Code! Code!',
       text: (
-        <p>
-          I love to code all kinds of things. I just finished working on a
-          contract building a webapp for a Fortune 25 company. Before that, I
-          made Project Management software for hospitals. My personal projects
-          usually explore the latest science&nbsp;/&nbsp;computer tech that I'm
-          into, or are websites built for my friends and me.
-        </p>
+        <>
+          <p>
+            I love to code all kinds of things. I am the backend engineer at{' '}
+            <a href="https://energyrm.com">EnergyRM</a>, a startup that predicts
+            the energy consumption of buildings from past utility bills.
+          </p>
+          <p>
+            Before that, I was contracted to build a webapp for a Fortune 25
+            company. Even earlier, I made Project Management software for
+            hospitals.
+          </p>
+          <p>
+            My personal projects usually explore the latest
+            science&nbsp;/&nbsp;computer tech that I'm into, or are websites
+            built for my friends and me.
+          </p>
+        </>
       ),
       icon: 'code',
       children: [
@@ -59,8 +69,7 @@ const ProfileSplash = () => {
     {
       title: 'Learning',
       caption: 'Learn! Learn! Learn!',
-      text:
-        "Learning is fun! I get absorbed in what I'm learning about; be it music, or physics, or history, or anything. The best feeling is to learn something new and connect it, by direct process or metaphor, to another thing you know. Gotta have those fun facts! ",
+      text: "Learning is fun! I get absorbed in what I'm learning about; be it music, or physics, or history, or anything. The best feeling is to learn something new and connect it, by direct process or metaphor, to another thing you know. Gotta have those fun facts! ",
       icon: 'book-reader',
       children: [
         <ul>
@@ -92,13 +101,12 @@ const ProfileSplash = () => {
     {
       title: 'Exploring',
       caption: 'Never stop exploring.',
-      text:
-        'There is so much to explore and I proceed with wonderment. I long for meeting new people and experiencing new ways to view the world. Travelling is a great way to expand your view, and reading is too! I never stop exploring.',
+      text: 'There is so much to explore and I proceed with wonderment. I long for meeting new people and experiencing new ways to view the world. Travelling is a great way to expand your view, and reading is too! I never stop exploring.',
       icon: 'globe-americas',
       children: [
         <ul>
           <li className="fa fa-map-signs">
-            &nbsp;<span>Ask me about my recent trip to the Caucuses!</span>
+            &nbsp;<span>Ask me about my 2019 trip to the Caucuses!</span>
           </li>
           <li className="fa fa-anchor">
             &nbsp;
@@ -115,7 +123,7 @@ const ProfileSplash = () => {
             </span>
             <br />
             <span>
-              Working on{' '}
+              "Working" on{' '}
               <a href="https://github.com/pirtleshell/lanex">
                 a remake in Gatsby & Typescript
               </a>
