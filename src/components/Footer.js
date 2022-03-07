@@ -9,8 +9,8 @@ const Footer = () => {
       </code>
       <p>
         This page (over-engineered with Flexbox, React, and Redux) was last
-        updated on July 2021. The icons are part of FontAwesome. Please don't
-        spam me :) | Robert Pirtle © 2021
+        updated on March 2022. The icons are part of FontAwesome. Please don't
+        spam me :) | Robert Pirtle © 2022
       </p>
     </footer>
   );

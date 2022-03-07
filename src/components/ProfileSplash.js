@@ -28,14 +28,10 @@ const ProfileSplash = () => {
       text: (
         <>
           <p>
-            I love to code all kinds of things. I am the backend engineer at{' '}
-            <a href="https://energyrm.com">EnergyRM</a>, a startup that predicts
-            the energy consumption of buildings from past utility bills.
-          </p>
-          <p>
-            Before that, I was contracted to build a webapp for a Fortune 25
-            company. Even earlier, I made Project Management software for
-            hospitals.
+            I love to code all kinds of things. I am a software engineer at{' '}
+            <a href="https://tozny.com">Tozny</a>. Our main products are an easy
+            to use end-to-end encrypted database and an identity management
+            platform.
           </p>
           <p>
             My personal projects usually explore the latest

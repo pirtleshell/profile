@@ -46,7 +46,7 @@ const BannerBox = () => {
       <div className="bannerDesc">
         <p>
           Software Developer excited by problems involving complex,
-          interconnected systems in an ethical & interdisciplinary domain.
+          interconnected systems in an ethical &amp; interdisciplinary domain.
         </p>
         <p>
           <i>Currently programming, learning, and exploring.</i>
